@@ -1,0 +1,147 @@
+body{
+    font-family: Arial,sans-serif; margin:0; padding:0;
+}
+*{
+    box-sizing: border-box;
+}
+header{
+    background-color: #f2f2f2; padding: 20px;
+}
+.logo{
+    width: 50px; height: 50px; margin-right: 10px; 
+    
+}
+.site-name{
+    font-size: 24px ; font-weight: bold; color:#fff
+}
+button{
+    background-color: #4CAF50; color: #fff; padding: 10px 20px; border: none; border-radius: 5px;
+}
+nav{
+    background-color: #333; padding: 20px; text-align: center;
+}
+nav a{
+    color:#fff; text-decoration: none; margin-right: 20px;
+}
+.section1{
+    background-color: #f9f9f9; padding: 20px;
+}
+.section2{
+    background: #f9f9f9; padding: 20px;
+}
+.section2 ul{
+    list-style: none;  margin:0; padding: 0;
+}
+.section2 li{
+    margin-bottom: 20px;
+}
+.section2 img{
+    width: 40px; margin-right: 10px;
+}
+.sub-title{
+    font-size: 18px; font-weight: bold;
+}
+.coin-symbol{
+    font-size:16px ; color: #666
+}
+.sponsors{
+    background-color: #f2f2f2; padding: 20px;
+}
+.sponsors ul{
+    list-style:none; margin:0; padding: 0;
+}
+.sponsors li{
+    margin: right 20px;
+}
+.sponsors img{
+    width: 60px; height: 60px;
+}
+footer{
+    background-color: #333; padding: 10px;
+}
+.coin-listing{
+    background-color: #f9f9f9; 
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.coin-listing ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.coin-listing li{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 20px;
+   border-radius: 10px;
+}
+.coin-listing img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 2px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: inline;
+    margin-bottom: 5px;
+}
+.coin-listing .coin-name{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.coin-listing .coin-price{
+    font-size: 16px;
+    color: #666;
+}
+.coin-listing{
+    background-color: #f7f7f7; /* Light grey background */
+}
+.coin-listing li{
+    border-bottom: 1px solid #ddd; /* Grey border */
+}
+.coin-listing li:hover{
+    background-color: #eee; /* Light grey hover */
+}
+.coin-listing img{
+    border: 1px solid #ddd; /* Grey border */
+}
+.coin-listing .coin-name{
+    color: #333; /* Dark grey text*/
+}
+footer a{
+    color: #fff; text-decoration: none;
+}
+footer .copyright{
+    font-size: 18px; margin-right: 10px;
+}
+.socials{
+    font-size:18px; margin-right:10px;
+}
+.footer img{
+    width: 60px; height: 60px;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 2px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: inline;
+    margin-bottom: 5px;
+}
+p{
+    color:#fff; 
+}

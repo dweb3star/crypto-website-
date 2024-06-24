@@ -1,0 +1,84 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+.company-name{
+   font-size: 1.5em;
+   font-weight: bold;
+   color:#fff
+}
+body{
+   font-family: Arial, sans-serif;
+   line-height:1.6;
+   color:#333;
+   background:#f9f9f9;
+}
+
+header{
+   background: #333;
+   padding: len;
+   text-align:center
+}
+
+.logo{
+   font-size: 1.5em;
+   font-weight: bold;
+   color:#fff
+
+}
+
+nav ul {
+   list-style:none;
+   margin:0;
+   padding:0;
+   display:flex;
+   justify-content: space-between;
+}
+
+nav li{
+   margin-right: 2em;
+}
+
+nav a{
+   color: #fff;
+   text-decoration: none;
+   transition: color 0.2s ease;
+}
+
+nav a:hover{
+   color:#ccc
+}
+
+.Hero{
+   background: url() center center/ cover;
+   height: 100vh;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   color: #fff;
+}
+
+.Hero h1{
+   font-size:2em;
+   margin-bottom: 0.5em;
+}
+
+.Hero buttton{
+   background: #333;
+   color:#fff;
+   border: none;
+   padding:1em 2em;
+   font-size: 1em;
+   cursor: pointer;
+}
+
+.Article-grid{
+   display:grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-gap:lem;
+}
+
+
+
